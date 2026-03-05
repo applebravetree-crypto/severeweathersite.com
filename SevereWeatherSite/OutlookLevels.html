@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="Logo.png">
+    <title>Outlook levels</title>
+</head>
+<body id="outlook_body">
+    <h1>Severe weather site</h1>
+
+    <hr>
+    <a href="severeWthr.html">Back</a>
+    <hr>
+
+    <div>
+        <h2>Outlook levels</h2>
+        
+        <div style="position: relative; left: 20%; width: 60%;">
+            <table style="width: 100%; font-size: large;">
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Abbreviation</th>
+                        <th>Label on maps</th>
+                        <th>Appearance on maps</th>
+                        <th>Comparable to</th>
+                        <th>Short description</th>
+                        <th>Detailed description</th>
+                        <th>Example(s)</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr id="non_tornadic_thunderstorms">
+                        <td>Non-tornadic thunderstorms</td>
+                        <td><b class="b_NTR">NTR</b></td>
+                        <td>T</td>
+                        <td class="td_NTR">Grey</td>
+                        <td><a target="_blank" class="useful_link" href="https://www.spc.noaa.gov">SPC</a>'s 
+                            <a target="_blank" class="useful_link" href="https://www.spc.noaa.gov/new/images/SPC_outlook_final_updated.png">TSTM</a> level</td>
+                        <td>Thunderstorms may occur, but no tornadoes</td>
+                        <td>Thunderstorms are either expected or possible in these areas. "Thunderstorms" is very loosely-defined, sometimes this level may be used for big areas of high reflectivity (heavy rain).</td>
+                        <td>Many</td>
+                    </tr>
+                    <tr id="minuscule">
+                        <td>Minuscule</td>
+                        <td><b class="b_MSC">MSC</b></td>
+                        <td>1</td>
+                        <td class="td_MSC">Green</td>
+                        <td>SPC's 2% tor-risk</td>
+                        <td>Tornado(es) may be possible</td>
+                        <td>There is a possibility that a thunderstorm produces a tornado. Usually, <b class="b_MSC">Minuscule</b> risks are issued when there is a 20% (low-end MSC) to 60% (high-end MSC) certainty of a tornado occurring. Certainties above 60% may also constitute a <b class="b_MSC">Minuscule</b> risk if any tornadoes that occur are likely to be weak.</td>
+                        <td><a target="_blank" class="useful_link" href="https://www.spc.noaa.gov/climo/reports/250921_rpts.html">2025/09/21</a>, 
+                            <a target="_blank" class="useful_link" href="https://www.spc.noaa.gov/climo/reports/260110_rpts.html">2026/01/10</a></td>
+                    </tr>
+                    <tr id="elevated">
+                        <td>Elevated</td>
+                        <td><b class="b_ELV">ELV</b></td>
+                        <td>2</td>
+                        <td class="td_ELV">Yellow</td>
+                        <td>SPC's 5% tor-risk</td>
+                        <td>Tornado(es) are expected</td>
+                        <td>1 or more tornadoes are expected to occur. When more than 6 tornadoes are expected, usually a <b class="b_MDT">Moderate</b> risk is issued instead, except if those tornadoes are likely to be weak.</td>
+                        <td><a target="_blank" class="useful_link" href="https://www.spc.noaa.gov/climo/reports/250922_rpts.html">2025/09/22</a>, 
+                            <a target="_blank" class="useful_link" href="https://www.spc.noaa.gov/climo/reports/251018_rpts.html">2025/10/18</a></td>
+                    </tr>
+                    <tr id="moderate">
+                        <td>Moderate</td>
+                        <td><b class="b_MDT">MDT</b></td>
+                        <td>3</td>
+                        <td class="td_MDT">Maroon</td>
+                        <td>SPC's 10% & 15% tor-risks</td>
+                        <td>Tornadoes, maybe significant, are certain</td>
+                        <td>Multiple tornadoes are certain to occur.</td>
+                        <td><a target="_blank" class="useful_link" href="https://www.spc.noaa.gov/climo/reports/250405_rpts.html">2025/04/05</a>, 
+                            <a target="_blank" class="useful_link" href="https://www.spc.noaa.gov/climo/reports/250419_rpts.html">2025/04/19</a></td>
+                    </tr>
+                    <tr id="high">
+                        <td>High</td>
+                        <td><b class="b_HIG">HIG</b></td>
+                        <td>4</td>
+                        <td class="td_HIG">Pink</td>
+                        <td>SPC's 15% & 30% tor-risks</td>
+                        <td>Many tornadoes, including significant to strong, are certain</td>
+                        <td>Large tornado-outbreak is expected, with many tornadoes certain to occur. Some of these could be significant or strong, & violent tornado(es) may be possible.</td>
+                        <td><a target="_blank" class="useful_link" href="https://www.spc.noaa.gov/climo/reports/250516_rpts.html">2025/05/16</a></td>
+                    </tr>
+                    <tr id="extreme">
+                        <td>Extreme</td>
+                        <td><b class="b_EXR">EXR</b></td>
+                        <td>5</td>
+                        <td class="td_EXR">Cyan</td>
+                        <td>SPC's 45% & 60% tor-risks</td>
+                        <td>Many tornadoes, including strong to violent, are certain</td>
+                        <td>Massive tornado-outbreak is expected, with many significant & strong tornadoes expected, & violent tornado(es) likely. Many years may not have any <b class="b_EXR">Extreme</b>-risk days, & those that do will probably only have 1.</td>
+                        <td><a target="_blank" class="useful_link" href="https://www.spc.noaa.gov/climo/reports/110427_rpts.html">2011/04/27</a></td>
+                    </tr>
+                    <tr id="significant_tornadoes">
+                        <td>Significant tornadoes</td>
+                        <td><b class="b_SIGTOR">SIG</b> or <b class="b_SIGTOR">sig-tor</b></td>
+                        <td><i>(none)</i></td>
+                        <td class="td_SIGTOR">Beige + horizontal <a target="_blank" class="useful_link" href="https://en.wikipedia.org/wiki/Hatching">hatching</a></td>
+                        <td>SPC's CIG1 & CIG2</td>
+                        <td>SIgnificant tornado(es) likely will occur</td>
+                        <td>Overlaps with numbered levels. These areas indicate that at-least 1 significant tornado is likely.</td>
+                        <td><a target="_blank" class="useful_link" href="https://www.spc.noaa.gov/climo/reports/250518_rpts.html">2025/05/18</a></td>
+                    </tr>
+                    <tr id="violent_tornadoes">
+                        <td>Violent tornadoes</td>
+                        <td><b class="b_SIGTOR">VIL</b> or <b class="b_SIGTOR">violent-tor</b></td>
+                        <td><i>(none)</i></td>
+                        <td class="td_SIGTOR">Beige + diagonal <a target="_blank" class="useful_link" href="https://en.wikipedia.org/wiki/Hatching">hatching</a></td>
+                        <td>SPC's CIG3</td>
+                        <td>Violent tornado(es) may occur.</td>
+                        <td>Overlaps with numbered levels. These areas indicate that at-least 1 violent tornado is possible.</td>
+                        <td><a target="_blank" class="useful_link" href="https://www.spc.noaa.gov/climo/reports/250516_rpts.html">2025/05/16</a></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <hr>
+    <div>
+        <h2>Outlook showcase</h2>
+        <div>
+            <img src="CTO/Custom_Tornado_Outlook_ColorShowcase.png" alt="">
+        </div>
+    </div>
+</body>
+</html>
