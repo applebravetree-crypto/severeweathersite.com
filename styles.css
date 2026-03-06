@@ -256,7 +256,7 @@ td {
 }
 .b_MDT {
     color: #AA0022;
-    text-shadow: #330011 0px 0px 6px;
+    text-shadow: #000000 0px 0px 6px;
     font-weight: unset;
 }
 .b_HIG {
@@ -336,6 +336,7 @@ th, td {
     text-wrap: nowrap;
 
 }
+
 
 
 
