@@ -32,9 +32,11 @@ abbr {
     background-color: #66666666;
     color: #FFFFFF;
     position: relative;
-    left: 20%;
+    /* left: 20%;
     width: 60%;
-    height: 3%;
+    height: 3%; */
+    self-align: center;
+    width: 1080px;
     padding: 2px;
     font-weight: normal;
     font-size: 16px;
@@ -335,4 +337,5 @@ th, td {
     right: 0%;
     width: 75%;
     text-wrap: nowrap;
+
 }
