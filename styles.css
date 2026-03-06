@@ -35,7 +35,6 @@ abbr {
     /* left: 20%;
     width: 60%;
     height: 3%; */
-    align-self: center;
     width: 1080px;
     padding: 2px;
     font-weight: normal;
@@ -340,4 +339,5 @@ th, td {
     text-wrap: nowrap;
 
 }
+
 
