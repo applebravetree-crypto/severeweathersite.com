@@ -20,19 +20,43 @@
     <a class="useful_link" href="outlooklevels#significant_tornadoes">SIG-TOR</a> (S): 
     <a class="useful_link" href="outlooklevels#violent_tornadoes">VIL-TOR</a> (V): 
     --> 
+
+    <script>
+    function changeLanguage(lang) {
+        var languages = document.getElementsByClassName("langs");
+        
+        for (let i = 0; i < languages.length; i++) {
+            languages[i].style.display = "none";
+        }
+        
+        var selectedLang = "lang_" + lang
+        var newLang = document.getElementsByClassName(selectedLang);
+        
+        for (let i = 0; i < newLang.length; i++) {
+            newLang[i].style.display = "block";
+        }
+        
+    }
+    </script>
 </head>
 <body>
-    <h1>Severe weather site</h1>
+    <h1 style="display: block" class="langs lang_ENG">Severe weather site</h1>
+    <h1 style="display: none" class="langs lang_fHUR">Sııto yeþrosevruš</h1>
     
     <hr>
     <div>
         <a href="outlooks">Outlooks</a>
          - 
         <a href="northamerica_tornado_outlook_extended">Extended</a>
-        <hr>
     </div>
+
+    <div class="language_buttons">
+        <button onclick="changeLanguage('ENG')">English</button>
+        <button onclick="changeLanguage('fHUR')">Ohyrıımon</button>
+    </div>
+    <hr>
     
-    <div>
+    <div style="display: block" class="langs lang_ENG">
         <h2>Today's tornado outlook</h2>
         <img src="CTO/NorthAmerica_Tornado_Outlook_Today.png" alt="US Tornado outlook" height="720">
         
@@ -48,7 +72,7 @@
         </div>
         <div class="risk_seperator">&nbsp;</div>
         
-        <p style="display: default" class="risk_explain ENG">
+        <p class="risk_explain">
             A small chance of a tornado exists in Texas from yesterday's thunderstorms, starting now. <br>
             Thunderstorms are expected across the southern United States, along with the Rocky Mountains, Mexico, & the Gulf of Mexico, starting now. <br>
             Thunderstorms are also expected on Hispaniola, starting at 18:00 UTC, 2026/05/27. <br><br>
@@ -57,7 +81,25 @@
 
             -- Cenn Devel, 2026/05/27 6:44z.
         </p>
-        <p style="display: none" class="risk_explain HUR">
+    </div>
+
+    <div style="display: none" class="langs lang_fHUR">
+        <h2>Sıxlônys outlook bor jjais</h2>
+        <img src="CTO/NorthAmerica_Tornado_Outlook_Today.png" alt="US Tornado outlook" height="720">
+        
+        <div class="loc_bar_1">
+            <a class="useful_link" href="outlooklevels#minuscule">MİNЭSXAALЭC</a> (1/5) #1: ZÆ Tэksas, Z Luıjaana.
+        </div>
+        <div class="loc_bar_T">
+            <a class="useful_link" href="outlooklevels#non_tornadic_thunderstorms">ILLIAÐЭNAZDURMAS</a> (T) #1: N Kalifornıa, Oorehon, STRL Montaho, 
+        </div>
+        <div class="risk_seperator">&nbsp;</div>
+        <div class="loc_bar_T">
+            <a class="useful_link" href="outlooklevels#non_tornadic_thunderstorms">ILLIAÐЭNAZDURMAS</a> (T) #2: Hıspanioola.
+        </div>
+        <div class="risk_seperator">&nbsp;</div>
+        
+        <p class="risk_explain">
             Un ooso lanis es jjэstıı эn Tэksas foor ıllıaðэnazdurmas bor myanunjjais, offašin a nyya. <br>
             Illıaðэnazdurmas эse эpexâdo эnasče Stajjosis Unionaatot, soeavemales эl Landuxis Rocky, Meakšıko, & эl Gylfo bor Meakšıko, offašin a nyya. <br>
             Illıaðэnazdurmas эse эpexâdo soeavem yn Hıspanioola, offašin a 18:00h UTC, 2026/05/27. <br><br>
@@ -67,6 +109,7 @@
             -- Cenn Devel, 2026/05/27 6:44h UTC.
         </p>
     </div>
+    
     
     <hr>
     <footer>
