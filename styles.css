@@ -238,36 +238,36 @@ td {
 .outlook_ul table tbody tr td table tbody tr td {
     text-align: left;
 }
-.b_NON {
+b.NON {
     color: #FFFFFF;
     font-weight: unset;
 }
-.b_TRM {
+b.TRM {
     color: #AAA8A7;
     font-weight: unset;
 }
-.b_MSC {
+b.MSC {
     color: #33AA11;
     font-weight: unset;
 }
-.b_ELV {
+b.ELV {
     color: #FFDD00;
     font-weight: unset;
 }
-.b_MDD {
+b.MDD {
     color: #AA0022;
     text-shadow: #000000 0px 0px 6px;
     font-weight: unset;
 }
-.b_MYR {
+b.MYR {
     color: #FF00EE;
     font-weight: unset;
 }
-.b_EXO {
+b.EXO {
     color: #22EEEE;
     font-weight: unset;
 }
-.b_SIGTOR {
+b.SIGTOR {
     color: #FFBB99;
     text-shadow: #000000 0px 0px 6px;
     font-weight: bold;
@@ -276,35 +276,35 @@ th, td {
     text-align: center;
 }
 
-.td_NON {
+td.NON {
     color: #000000;
     background-color: #FFFFFF;
 }
-.td_TRM {
+td.TRM {
     color: #000000;
     background-color: #AAA8A7;
 }
-.td_MSC {
+td.MSC {
     color: #000000;
     background-color: #33AA11;
 }
-.td_ELV {
+td.ELV {
     color: #000000;
     background-color: #FFDD00;
 }
-.td_MDD {
+td.MDD {
     color: #ffffff;
     background-color: #AA0022;
 }
-.td_MYR {
+td.MYR {
     color: #ffffff;
     background-color: #FF00EE;
 }
-.td_EXO {
+td.EXO {
     color: #000000;
     background-color: #22EEEE;
 }
-.td_SIGTOR {
+td.SIGTOR {
     color: #000000;
     background-color: #FFBB99;
 }
@@ -335,9 +335,4 @@ th, td {
     right: 0%;
     width: 75%;
     text-wrap: nowrap;
-
 }
-
-
-
-
