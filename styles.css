@@ -238,7 +238,7 @@ td {
 .outlook_ul table tbody tr td table tbody tr td {
     text-align: left;
 }
-b.NON {
+b.NAD {
     color: #FFFFFF;
     font-weight: unset;
 }
@@ -276,9 +276,9 @@ th, td {
     text-align: center;
 }
 
-td.NON {
-    color: #000000;
-    background-color: #FFFFFF;
+td.NAD {
+    color: #AAAAAA;
+    background-color: #000000;
 }
 td.TRM {
     color: #000000;
