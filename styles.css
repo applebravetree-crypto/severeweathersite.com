@@ -44,39 +44,39 @@ table.loc_bar {
     text-wrap: wrap;
     text-overflow: clip;
 } */
-.loc_bar_0 {
+.loc_bar_0 td {
     background-color: #66666666;
     color: #FFFFFF;
 }
-.loc_bar_T {
+.loc_bar_T td {
     background-color: #66646399;
     color: #FFFFFF;
 }
-.loc_bar_1 {
+.loc_bar_1 td {
     background-color: #11660099;
     color: #FFFFFF;
 }
-.loc_bar_2 {
+.loc_bar_2 td {
     background-color: #99880099;
     color: #FFFFFF;
 }
-.loc_bar_3 {
+.loc_bar_3 td {
     background-color: #66001199;
     color: #FFFFFF;
 }
-.loc_bar_4 {
+.loc_bar_4 td {
     background-color: #99008899;
     color: #FFFFFF;
 }
-.loc_bar_5 {
+.loc_bar_5 td {
     background-color: #11888899;
     color: #FFFFFF;
 }
-.loc_bar_S {
+.loc_bar_S td {
     background-color: #FFBB9999;
     color: #FFFFFF;
 }
-.loc_bar_V {
+.loc_bar_V td {
     background-color: #FFBB9999;
     color: #FFFFFF;
 }
