@@ -28,6 +28,10 @@ div.risk_seperator {
 abbr {
     cursor: help;
 }
+table.loc_bar {
+    left: 20%;
+    width: 60%;
+}
 .loc_bar_0, .loc_bar_T, .loc_bar_1, .loc_bar_2, .loc_bar_3, .loc_bar_4, .loc_bar_5, .loc_bar_S, .loc_bar_V {
     position: relative;
     left: 20%;
