@@ -28,8 +28,7 @@ div.risk_seperator {
 abbr {
     cursor: help;
 }
-.loc_bar_0, .loc_bar_T, .loc_bar_1, .loc_bar_2, .loc_bar_3, .loc_bar_4, .loc_bar_5, .loc_bar_S, .loc_bar_V, 
-.loc_bar_C0, .loc_bar_C1, .loc_bar_C2, .loc_bar_C3, .loc_bar_C4, .loc_bar_C5 {
+.loc_bar_0, .loc_bar_T, .loc_bar_1, .loc_bar_2, .loc_bar_3, .loc_bar_4, .loc_bar_5, .loc_bar_S, .loc_bar_V {
     position: relative;
     left: 20%;
     width: 60%;
@@ -78,27 +77,27 @@ abbr {
     color: #FFFFFF;
 }
 
-.loc_bar_C0 {
+.loc_bar_C0 td {
     background-color: #99FFEE66;
     color: #99FFEE;
 }
-.loc_bar_C1 {
+.loc_bar_C1 td {
     background-color: #00CCBB66;
     color: #00CCBB;
 }
-.loc_bar_C2 {
+.loc_bar_C2 td {
     background-color: #FFEEBB66;
     color: #FFEEBB;
 }
-.loc_bar_C3 {
+.loc_bar_C3 td {
     background-color: #DD990066;
     color: #DD9900;
 }
-.loc_bar_C4 {
+.loc_bar_C4 td {
     background-color: #AA002266;
     color: #AA0022;
 }
-.loc_bar_C5 {
+.loc_bar_C5 td {
     background-color: #DD55AA66;
     color: #DD55AA;
 }
